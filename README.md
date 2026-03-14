@@ -1,62 +1,37 @@
-# Private Self-Hosted Cloud with Nextcloud AIO and Tailscale
+# Private Cloud Lab
 
-## Project Overview
+## Overview
+This repository documents my private cloud homelab project built for hands-on learning in self-hosting, system administration, networking, and security. The lab currently includes Tailscale for secure remote connectivity and Nextcloud for private cloud storage and collaboration.
 
-This project documents the build of a private self-hosted cloud environment in a home lab using **Nextcloud AIO**, **Docker**, and **Tailscale** on an Ubuntu Server running on a Mac mini.
+## Purpose
+The purpose of this lab is to help me learn how to deploy, document, secure, and manage self-hosted private cloud services in a real-world style environment.
 
-The goal was to create a secure personal cloud that could be accessed remotely **without exposing the home network to the public internet through port forwarding**.
+## Current Core Technologies
+- Tailscale
+- Nextcloud
+- Linux
+- Self-hosted networking and administration
+- Documentation-driven lab building
 
-During the build, the original design involved public access through a domain and router forwarding. However, after identifying the added complexity and risk of a double-router environment, the design was changed to use **Tailscale** for private encrypted remote access.
+## Project Goals
+- Build a secure private cloud environment
+- Learn remote access and mesh VPN concepts
+- Document installations step by step
+- Practice system hardening and maintenance
+- Create a portfolio-ready homelab project
+- Expand into backups, monitoring, and additional services
 
-This project became more than just an application install. It became a practical exercise in:
+## Current Status
+- [x] Tailscale installed
+- [x] Nextcloud installed
+- [ ] Initial configuration documentation
+- [ ] Security hardening
+- [ ] Backup strategy
+- [ ] Monitoring and maintenance plan
 
-- self-hosting
-- Docker deployment
-- network troubleshooting
-- secure remote access design
-- service recovery
-- architecture decision-making
-- documenting technical work clearly
+## Repository Structure
 
----
-
-## Objective
-
-Build a private cloud service in a lab environment that allows secure remote access to files and services without unnecessary public exposure.
-
----
-
-## Key Technologies Used
-
-- **Nextcloud AIO**
-- **Docker**
-- **Ubuntu Server**
-- **Tailscale**
-- **Mac mini**
-- **Home lab networking**
-- **Private remote access**
-- **HTTPS reverse proxy through Tailscale Serve**
-
----
-
-## Lab Environment
-
-### Main Devices
-
-- **Mac mini**
-  - Role: application/service host
-  - OS: Ubuntu Server
-  - Hosted services: Nextcloud AIO and related containers
-
-- **Lenovo ThinkPad T14**
-  - Role: management workstation
-  - Used to remotely access and manage the Mac mini
-
-- **Lenovo M920**
-  - Role: main infrastructure server / Proxmox hypervisor
-  - Planned for future infrastructure services such as Pi-hole and additional VMs
-
-### Network Path
-
-
-ISP → AX3200 home router → AX50 lab router → GS308E managed switch → Mac mini
+docs/               Project documentation
+assets/             Screenshots, diagrams, visuals
+scripts/            Helper scripts for updates, backups, checks
+templates/          Reusable documentation templates
