@@ -1,11 +1,15 @@
-# Operating system files
+
+## 6) `.gitignore`
+
+```text
+# OS files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Temporary files
+# Temp files
 *.tmp
 *.swp
 *.bak
@@ -14,18 +18,16 @@ Thumbs.db
 .env
 .env.*
 
-# Sensitive configuration
+# Sensitive files
 config.php
 secrets.txt
 credentials.txt
-
-# SSH keys
 *.pem
 *.key
 id_rsa
 id_rsa.pub
 
-# VPN / Tailscale sensitive exports
+# Tailscale sensitive exports
 tailscale-authkey.txt
 tailscale-state.json
 
@@ -35,9 +37,6 @@ tailscale-state.json
 *.gz
 *.7z
 
-# Screenshot temp folders
-assets/screenshots/tmp/
-
-# IDE files
+# Editor folders
 .vscode/
 .idea/
