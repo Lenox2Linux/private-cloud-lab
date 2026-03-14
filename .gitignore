@@ -1,0 +1,43 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Environment files
+.env
+.env.*
+
+# Sensitive configuration
+config.php
+secrets.txt
+credentials.txt
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# VPN / Tailscale sensitive exports
+tailscale-authkey.txt
+tailscale-state.json
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Screenshot temp folders
+assets/screenshots/tmp/
+
+# IDE files
+.vscode/
+.idea/
