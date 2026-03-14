@@ -42,20 +42,21 @@ assets/screenshots/ = screenshots
 
 ## Documentation
 
-docs/project-summary.md = full project summary
-
-docs/architecture.md = high-level design and component flow
-
-docs/installation-summary.md = summary of completed installation work
-
-docs/configuration-summary.md = overview of service configuration
-
-docs/security-notes.md = security considerations and safe practices
-
-docs/lessons-learned.md = reflections and future improvements
-
-
+* **project-summary.md** — full project overview
+* **architecture.md** — high-level design and system flow
+* **installation-summary.md** — summary of completed installation work
+* **configuration-summary.md** — overview of service configuration
+* **security-notes.md** — security considerations and safe practices
+* **lessons-learned.md** — project reflections and improvements
 
 ## Resume-Friendly Project Summary
 
-Built and documented a private cloud homelab using Nextcloud and Tailscale to practice self-hosting, secure remote access, Linux administration, and infrastructure documentation. Organized the project into clear architecture, configuration, security, and lessons-learned documentation for portfolio presentation.
+Built and documented a private cloud homelab using **Nextcloud and Tailscale** to practice:
+
+* self-hosting
+* secure remote access
+* Linux administration
+* infrastructure documentation
+
+Organized the project into **architecture, configuration, security, and lessons-learned documentation** to present a portfolio-ready infrastructure project.
+
