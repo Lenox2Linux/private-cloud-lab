@@ -43,11 +43,11 @@ assets/screenshots/ = screenshots
 ## Documentation
 
 * [Project Summary](docs/project-summary.md) — full project overview
-* **architecture.md** — high-level design and system flow
-* **installation-summary.md** — summary of completed installation work
-* **configuration-summary.md** — overview of service configuration
-* **security-notes.md** — security considerations and safe practices
-* **lessons-learned.md** — project reflections and improvements
+* [Project Summary](docs/architecture.md) — high-level design and system flow
+* [Project Summary](docs/installation-summary.md) — summary of completed installation work
+* [Project Summary](docs/configuration-summary.md) — overview of service configuration
+* [Project Summary](docs/security-notes.md) — security considerations and safe practices
+* [Project Summary](docs/lessons-learned.md) — project reflections and improvements
 
 ## Resume-Friendly Project Summary
 
