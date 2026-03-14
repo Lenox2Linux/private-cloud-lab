@@ -38,7 +38,6 @@ Completed
 
 ## Repository Structure
 docs/ = project documentation  
-assets/screenshots/ = screenshots
 
 ## Documentation
 
