@@ -42,7 +42,7 @@ assets/screenshots/ = screenshots
 
 ## Documentation
 
-* **project-summary.md** — full project overview
+* [Project Summary](docs/project-summary.md) — full project overview
 * **architecture.md** — high-level design and system flow
 * **installation-summary.md** — summary of completed installation work
 * **configuration-summary.md** — overview of service configuration
