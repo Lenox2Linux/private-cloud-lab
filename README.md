@@ -37,10 +37,8 @@ Completed
 - Security-minded system setup
 
 ## Repository Structure
-```text
-docs/               Project documentation
-assets/screenshots/ Screenshots for visual support
-```
+docs/ = project documentation  
+assets/screenshots/ = screenshots
 
 ## Documentation
 
